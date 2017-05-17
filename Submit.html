@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>s
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Submit</title>
+<link href="testcss.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+
+<div class = "container">
+
+
+<!-- HEADER --> 
+<div class = "header">
+ <p id = logo>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html" style="color: white; text-decoration: none">ThoughtBubble</a></p> 
+ <p id=navbar><a href="index.html" style="color: white; text-decoration: underline">Home</a> | <a href="About.html" style="color: white; text-decoration: underline">About</a> | <a href="Submit.html" style="color: white; text-decoration: underline">Submit</a> | <a href="Contact.html"  style="color: white; text-decoration: underline">Contact</a>&nbsp;&nbsp;</p>
+</div>
+
+
+<!-- CONTENT --> 
+<div class = "content"> 
+<p class = firstparagraph> What's on your mind? </p>
+
+<p class = secondparagraph> Please write your thought below.</p>
+<p class = thirdparagraph>  </p>
+<form>
+<textarea name="text" cols="50" rows="10" id="thirdparagraph" style = "resize: none"" ></textarea>
+<br/><br/>
+<input type = "submit" value = "Submit" id = "thirdparagraph" submit onclick="funcConfirm()"></submit>
+
+<p id="demo"></p>
+
+<script>
+function funcConfirm() {
+    var x;
+    if (confirm("Thank you. Your thought has been submitted and will be reviewed before being posted on the homepage.") == true) {
+        x = "";
+    } 
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+</form>
+
+</div>
+
+
+
+
+
+
+
+</div> 
+</body>
+</html>

@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body { 
+	background-color: #83B7E8;
+	background-image: url(images/gradient.png);
+ 	background-repeat: repeat-x;
+	margin: 0; 
+	padding: 0; 
+}
+
+.container {
+	position: absolute; 
+	margin: 0; 	
+	padding: 0; 
+	width: 100%; 
+}
+
+.header {
+	margin-top:-20px;
+	height: 80px;
+	width: 100%; 
+	position: relative;
+	background-color:#333;
+	font-size: 20px;
+	font-family: Helvetica Neue, Geneva, Verdana, sans-serif;
+	z-index: 1;
+	color: #FFF;	
+}
+
+#logo {
+	display: inline-block;
+	float: left;
+	font-size: 30px;
+}
+
+#navbar {
+	display: inline-block;
+	float: right; 
+	font-size: 20px;
+	padding-top: 20px; 
+}
+.box {
+	width:380px;
+	height:380px;
+	display: inline-block; 
+	position: absolute; 
+	padding-all: 0px; 
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-image: url(images/cloud.gif);	
+
+    -webkit-animation-name: fallDown;
+	-webkit-animation-duration: 25s;
+	-webkit-animation-timing-function: linear; 
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state:running; 
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 0s;
+	
+    animation-name: fallDown;
+	animation-duration: 25s;
+	animation-timing-function: linear; 
+	animation-iteration-count: infinite;
+	animation-play-state: running; 
+	animation-fill-mode: forwards;
+	-animation-delay: 0s;
+	*/
+}
+
+
+@-webkit-keyframes fallDown {
+   0% {left:0px; top:0px;}
+   100% {left: 0px; top: 1080px;}
+   }
+
+@keyframes fallDown {
+   0% {left:0px; top:0px;}
+   100% {left: 0px; top: 1080px;}}
+
+
+.textbox {  
+	font-family: Geneva, Verdana, sans-serif;   
+	font-size: 20px;
+	line-height: 150%;
+    width:70%;
+    position: absolute;
+    text-align: center;
+	padding-left: 15%; 
+    padding-top:100%;
+    -webkit-transform: translateY(-60%); /* child now centers itself relative to the midline based on own contents */
+    -moz-transform: translateY(-60%);
+    -ms-transform: translateY(-60%);
+    -o-transform: translateY(-60%);
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Matrix(Dx=0,Dy=0)';
+    filter: progid:DXImageTransform.Microsoft.Matrix(Dx=0,Dy=0); 
+    transform: translateY(-60%);
+	 }
+	 
+/*     ROW 1     */
+#row1cloud1 {
+	display: inline-block;
+	margin-top: 0px; 
+	margin-left: 0px;
+	}
+#row1cloud2 {
+	display: inline-block;
+	margin-top: -100px; 
+	margin-left: 450px;
+	}
+
+#row1cloud3 {
+	display: inline-block;
+	margin-top: -140px; 
+	margin-left: 890px;
+	}
+	
+	
+/*     ROW 2     */
+#row2cloud1 {
+	display: inline-block;
+	margin-top: 400px; 
+	margin-left: 50px;
+	}
+	
+#row2cloud2 {
+	display: inline-block;
+	margin-top: 250px; 
+	margin-left: 500px;
+	}
+	
+#row2cloud3 {
+	display: inline-block;
+	margin-top: 400px; 
+	margin-left: 890px;
+	}
+	
+
+/*     ROW 3     */
+#row3cloud1 {
+	display: inline-block;
+	margin-top: -450px; 
+	margin-left: 50px;
+	}
+
+#row3cloud2 {
+	display: inline-block;
+	margin-top: -550px; 
+	margin-left: 500px;
+	}
+
+#row3cloud3 {
+	display: inline-block;
+	margin-top: -450px; 
+	margin-left: 890px;
+	}
+
+
+
+/*     ROW 4     */
+#row4cloud1 {
+	display: inline-block;
+	margin-top: -850px; 
+	margin-left: 0px;
+	}
+	
+#row4cloud2 {
+	display: inline-block;
+	margin-top: -950px; 
+	margin-left: 450px;
+	}
+
+#row4cloud3 {
+	display: inline-block;
+	margin-top: -990px; 
+	margin-left: 890px;
+	}
+
+.content {
+	width: 800px;
+	position: relative;
+	background-color: #FFF;
+	margin-top: 0px; 	
+	margin-right: auto; 
+	margin-left: auto; 
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 40px; 
+	padding-right: 40px; 
+	padding-left: 40px; 
+	padding-bottom: 90px; 
+	font-family: "Helvetica Neue", Verdana, sans-serif;
+	font-size: 18px;
+	line-height: 140%; 
+}
+
+.firstparagraph {
+	font-size: 27px; 
+	color: #333;
+	line-height: 130%; 
+}
+
+.secondparagraph {
+	font-size: 20px; 
+	color:#5A5A5A;
+}
+
+.thirdparagraph {
+	font-size: 18px; 
+	color: #5A5A5A;
+	
+}
